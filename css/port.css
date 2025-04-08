@@ -14,13 +14,18 @@
 }
 
 body {
+  grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "header header"
     "main aside"
     "footer footer";
   display: grid;
+  font-family: CookieRun-Regular;
+  margin: 10px;
 }
-
+main {
+  background-color: aqua;
+}
 nav > ul {
   display: flex;
 }
@@ -44,11 +49,17 @@ main {
 aside {
   grid-area: aside;
   border: 1px solid black;
-  background-color: beige;
+  background-color: lightgreen;
 }
 
 footer {
   grid-area: footer;
   border: 1px solid black;
   background-color: beige;
+}
+main {
+  text-align: center;
+}
+aside {
+  text-align: center;
 }
