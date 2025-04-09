@@ -139,7 +139,6 @@ footer {
   border-radius: 10px;
   object-fit: cover;
   transition: transform 0.3s ease;
-  max-height: 500px;
 }
 
 .projects h3 {
