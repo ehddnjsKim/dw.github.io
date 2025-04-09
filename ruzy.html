@@ -3,17 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dw&#39;s Portfolio</title>
-    <meta name="description" content="세상에서 가장 뛰어난 AI 개발자" />
-    <meta name="author" content="Dw" />
-    <!-- 소셜 미디어 공유용 메타 태그 (Open Graph) -->
-    <meta property="og:title" content="동원의 포폴" />
-    <meta property="og:type" content="dw's website" />
-    <meta property="og:url" content="https://ehddnjsKim.github.io/" />
+    <title>dw&#39;s Portfolio</title>
+    <meta name="description" content="우주에서 가장 뛰어난 AI 개발자" />
+    <meta name="author" content="dw" />
+    <!-- 소셜 미디어 공유용 메타 태그(Open Graph) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="dw's Website" />
+    <meta property="og:title" content="dw's Website" />
+    <meta property="og:url" content="https://ehddnjskim.github.io/" />
+    <meta
+      property="og:description"
+      content="최고의 개발사가 되고 싶은 동원 입니다!"
+    />
     <meta
       property="og:image"
       content="https://ehddnjskim.github.io/images/dog.png"
     />
+
     <link rel="shortcut icon" href="./images/dog.ico" type="images/x-icon" />
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Font Awesome -->
@@ -26,14 +33,14 @@
     <!-- Header 시작-->
     <header class="header">
       <div class="header__logo">
-        <img class=".header__logo_img" src="./images/dog.ico" alt="Logo" />
+        <img class="header__logo__img" src="./images/dog.ico" alt="Logo" />
         <h1 class="header__logo__title"><a href="#home">Dw</a></h1>
       </div>
       <nav class="header__nav">
         <ul class="header__menu">
           <li><a href="#home" class="header__menu__item active">홈으로</a></li>
           <li><a href="#about" class="header__menu__item">동원</a></li>
-          <li><a href="#skill" class="header__menu__item">기술</a></li>
+          <li><a href="#skills" class="header__menu__item">기술</a></li>
           <li><a href="#work" class="header__menu__item">포트폴리오</a></li>
           <li><a href="#license" class="header__menu__item">자격증</a></li>
           <li><a href="#contact" class="header__menu__item">연락처</a></li>
@@ -41,22 +48,25 @@
       </nav>
     </header>
     <!-- Header 끝-->
+
     <!-- Main 시작 -->
     <main>
       <!-- Home 시작 -->
       <section id="home">
-        <img class="home__avatar" src="./images/dog.png" alt="Dw's profile" />
+        <img
+          class="home__avatar"
+          src="./images/dog.png"
+          alt="Ryuzy's profile"
+        />
         <h2 class="home__title">
-          안녕하세요.<br />
-          <strong class="home__title--string">동원</strong> 입니다
+          안녕하세요!<br />
+          <strong class="home__title--string">동원</strong>입니다.
         </h2>
-        <p class="home__description">
-          우주에서 가장 뛰어난 AI 개발자<br />
-          <strong>동원</strong>입니다!!
-        </p>
-        <a href="#contact" class="home__contact">연락처</a>
+        <p class="home__description">최고의 개발자가 되고싶은 동원 입니다!</p>
+        <a class="home__contact" href="#contact">연락처</a>
       </section>
       <!-- Home 끝 -->
+
       <!-- about 시작 -->
       <section id="about" class="section max-container">
         <h2 class="title">동원</h2>
@@ -71,7 +81,7 @@
         <ul class="skills">
           <li class="skill">
             <i class="fa-brands fa-html5 skill__icon"></i>
-            <p class="skil__title">Front-end</p>
+            <p class="skill__title">Front-end</p>
             <p>HTML, CSS, JavaScript, Node.js, React</p>
           </li>
           <li class="skill">
@@ -85,19 +95,20 @@
             <p>Tensorflow, Python, Pytorch, Numpy</p>
           </li>
         </ul>
+
         <ul class="jobs">
           <li class="job">
-            <img class="job__img" src="./images/python.png" alt="Python Logo" />
+            <img class="job__img" src="./images/cert2.png" alt="NCSoft Logo" />
             <div>
               <p class="job__name">엔씨소프트 시스템 엔지니어</p>
-              <p class="job__period">2025 ~</p>
+              <p class="job__period">2015 ~ 2017</p>
             </div>
           </li>
           <li class="job">
-            <img class="job__img" src="./images/ai.png" alt="AI Logo" />
+            <img class="job__img" src="./images/cert.png" alt="SK Logo" />
             <div>
               <p class="job__name">SK 플랫폼 엔지니어</p>
-              <p class="job__period">2025 ~</p>
+              <p class="job__period">2012 ~ 2015</p>
             </div>
           </li>
         </ul>
@@ -161,6 +172,7 @@
                 </li>
               </ul>
             </section>
+
             <section class="tools__tools">
               <h3 class="tools__title">도구</h3>
               <ul>
@@ -171,8 +183,9 @@
                 <li>Xcode</li>
               </ul>
             </section>
+
             <section class="tools_etc">
-              <h3 class="tools_title">기타</h3>
+              <h3 class="tools__title">기타</h3>
               <ul>
                 <li>Git</li>
                 <li>SLACK</li>
@@ -221,7 +234,7 @@
                 />
                 <div class="project__metadata">
                   <h3 class="project__title">Project #1</h3>
-                  <p>회의</p>
+                  <p>티맵</p>
                 </div>
               </a>
             </li>
@@ -234,7 +247,7 @@
                 />
                 <div class="project__metadata">
                   <h3 class="project__title">Project #1</h3>
-                  <p>회의</p>
+                  <p>티맵</p>
                 </div>
               </a>
             </li>
@@ -247,7 +260,7 @@
                 />
                 <div class="project__metadata">
                   <h3 class="project__title">Project #1</h3>
-                  <p>회의</p>
+                  <p>티맵</p>
                 </div>
               </a>
             </li>
@@ -260,7 +273,7 @@
                 />
                 <div class="project__metadata">
                   <h3 class="project__title">Project #1</h3>
-                  <p>회의</p>
+                  <p>티맵</p>
                 </div>
               </a>
             </li>
@@ -273,7 +286,7 @@
                 />
                 <div class="project__metadata">
                   <h3 class="project__title">Project #1</h3>
-                  <p>회의</p>
+                  <p>티맵</p>
                 </div>
               </a>
             </li>
@@ -286,7 +299,7 @@
                 />
                 <div class="project__metadata">
                   <h3 class="project__title">Project #1</h3>
-                  <p>회의</p>
+                  <p>티맵</p>
                 </div>
               </a>
             </li>
@@ -299,7 +312,7 @@
                 />
                 <div class="project__metadata">
                   <h3 class="project__title">Project #1</h3>
-                  <p>회의</p>
+                  <p>티맵</p>
                 </div>
               </a>
             </li>
@@ -312,7 +325,7 @@
                 />
                 <div class="project__metadata">
                   <h3 class="project__title">Project #1</h3>
-                  <p>회의</p>
+                  <p>티맵</p>
                 </div>
               </a>
             </li>
@@ -322,44 +335,56 @@
       <!-- work 끝 -->
 
       <!-- license 시작 -->
-      <section id="license">
-        <h2>자격증</h2>
-        <p>국가 기술 자격증</p>
-        <ul>
-          <li>
-            <img src="./images/license.png" alt="정보처리기사 자격증" />
-            <div>
+      <section id="license" class="section max-container">
+        <h2 class="title">자격증</h2>
+        <p class="description">국가 기술 자격증</p>
+        <ul class="licenses">
+          <li class="license">
+            <img
+              class="license__img"
+              src="./images/license.png"
+              alt="정보처리기사 자격증"
+            />
+            <div class="license__bubble">
+              <p><a href="#" class="license__bubble__name">산업인력공단</a></p>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 hic minima tenetur quasi necessitatibus natus, quisquam autem
                 reprehenderit voluptates, error culpa laboriosam iste explicabo
                 fugit, deserunt aliquam possimus voluptatem dolor!
               </p>
-              <p><a href="#"></a>산업인력공단</p>
             </div>
           </li>
-          <li>
-            <img src="./images/license.png" alt="데이터분석기사 자격증" />
-            <div>
+          <li class="license">
+            <img
+              class="license__img"
+              src="./images/license.png"
+              alt="정보처리기사 자격증"
+            />
+            <div class="license__bubble">
+              <p><a href="#" class="license__bubble__name">산업인력공단</a></p>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 hic minima tenetur quasi necessitatibus natus, quisquam autem
                 reprehenderit voluptates, error culpa laboriosam iste explicabo
                 fugit, deserunt aliquam possimus voluptatem dolor!
               </p>
-              <p><a href="#"></a>한국데이터산업진흥원</p>
             </div>
           </li>
-          <li>
-            <img src="./images/license.png" alt="ADSP 자격증" />
-            <div>
+          <li class="license">
+            <img
+              class="license__img"
+              src="./images/license.png"
+              alt="정보처리기사 자격증"
+            />
+            <div class="license__bubble">
+              <p><a href="#" class="license__bubble__name">산업인력공단</a></p>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 hic minima tenetur quasi necessitatibus natus, quisquam autem
                 reprehenderit voluptates, error culpa laboriosam iste explicabo
                 fugit, deserunt aliquam possimus voluptatem dolor!
               </p>
-              <p><a href="#"></a>한국데이터산업진흥원</p>
             </div>
           </li>
         </ul>
@@ -368,7 +393,7 @@
 
       <!-- Arrow Up 시작 -->
       <aside>
-        <a href="#home" title="위로">
+        <a href="#home" class="arrow-up" title="위로">
           <i class="fa-solid fa-arrow-up"></i>
         </a>
       </aside>
@@ -377,22 +402,32 @@
     <!-- Main 끝 -->
 
     <!-- Footer 시작 -->
-    <footer id="contact">
-      <h2>연락주세요!</h2>
-      <p>gimdongwon14@gmail.com</p>
-      <ul>
-        <li>
-          <a href="https://github.com/ehddnjsKim" target="_blank" title="깃허브"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://github.com/ehddnjsKim" target="_blank" title="깃허브"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </li>
-      </ul>
-      <p>&copy; Dw - All rights reserved</p>
+    <footer id="contact" class="section">
+      <div class="max-container">
+        <h2 class="title">연락주세요!</h2>
+        <p class="description">gimdongwon14@gmail.com</p>
+        <ul class="contact__links">
+          <li>
+            <a
+              class="contact__link"
+              href="https://ehddnjskim.github.io/"
+              target="_blank"
+              title="깃허브"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="contact__link"
+              href="https://ehddnjskim.github.io/"
+              target="_blank"
+              title="깃허브"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+        <p>&copy; Dw - All rights reserved</p>
+      </div>
     </footer>
     <!-- Footer 끝 -->
   </body>
