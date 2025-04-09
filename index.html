@@ -18,27 +18,30 @@
     />
     <link rel="shortcut icon" href="./images/dog.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/port.css" />
+    <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/133260cff9.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <header>
+    <!-- Header 시작 -->
+    <header id="home">
       <h1>김동원의 포트폴리오</h1>
       <img src="./images/dog.png" alt="로고" />
       <p>최고의 개발자를 꿈꾸는 <strong>김동원</strong>입니다!</p>
       <nav>
         <ul>
-          <li><a href="#">홈</a></li>
-          <li><a href="#">프로필</a></li>
-          <li><a href="#">기술</a></li>
-          <li><a href="#">포트폴리오</a></li>
+          <li><a href="#home">홈</a></li>
+          <li><a href="#skills">기술</a></li>
+          <li><a href="#portfolio">포트폴리오</a></li>
           <li><a href="#">연락처</a></li>
         </ul>
       </nav>
     </header>
+    <!-- Header 끝 -->
 
+    <!-- Main 시작 -->
     <main>
       <section id="portfolio">
         <h2>포트폴리오</h2>
@@ -64,8 +67,10 @@
         </ul>
       </section>
     </main>
+    <!-- Main 끝 -->
 
-    <aside>
+    <!-- Skill 시작 -->
+    <aside id="skills">
       <h2 class="tool_title">기술</h2>
       <p class="lang_tool">언어 및 도구</p>
       <p class="lang_tool">
@@ -116,7 +121,6 @@
             <li>IntelliJ</li>
           </ul>
         </section>
-
         <section class="tool_box">
           <h3>기타</h3>
           <ul>
@@ -125,11 +129,18 @@
           </ul>
         </section>
       </div>
+      <!-- skill 끝 -->
+
+      <!-- license 시작 -->
       <section class="certificate_section">
         <h3>자격증</h3>
         <ul class="certificates">
-          <li>
-            <img src="./images/cert.png" alt="정보처리기사" />
+          <li class="license">
+            <img
+              class="license_img"
+              src="./images/cert.png"
+              alt="정보처리기사"
+            />
             <div class="cert_info">
               <p class="cert_name">정보처리기사</p>
               <p class="cert_desc">
@@ -137,15 +148,15 @@
               </p>
             </div>
           </li>
-          <li>
-            <img src="./images/cert2.png" alt="SQLD" />
+          <li class="license">
+            <img class="license_img" src="./images/cert2.png" alt="SQLD" />
             <div class="cert_info">
               <p class="cert_name">SQLD</p>
               <p class="cert_desc">데이터베이스 설계와 SQL 활용 능력 인증</p>
             </div>
           </li>
-          <li>
-            <img src="./images/cert3.png" alt="컴활 1급" />
+          <li class="license">
+            <img class="license_img" src="./images/cert3.png" alt="컴활 1급" />
             <div class="cert_info">
               <p class="cert_name">컴퓨터활용능력 1급</p>
               <p class="cert_desc">
@@ -155,11 +166,36 @@
           </li>
         </ul>
       </section>
+      <!-- license 끝 -->
+
+      <!-- arrow up 시작 -->
+      <aside>
+        <a href="#home" class="arrow-up" title="위로">
+          <i class="fa- solid fa-arrow-up">🚗</i>
+        </a>
+      </aside>
+      <!-- assow-up 끝 -->
     </aside>
 
-    <footer>
-      <address>gimdongwon14@gmail.com</address>
-      <p>김동원의 개인 메일입니다.</p>
+    <!-- footer 시작 -->
+    <footer id="contact" class="section">
+      <div class="max-container">
+        <h2 class="title">연락주세요!</h2>
+        <p class="description">gimdongwon14@gmail.com</p>
+        <ul class="contact__links">
+          <li>
+            <a
+              class="contact__link"
+              href="https://ehddnjsKim.github.io/"
+              target="_blank"
+              title="깃허브"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+        <p>&copy; Dw - My Website</p>
+      </div>
     </footer>
+    <!-- footer 끝 -->
   </body>
 </html>
